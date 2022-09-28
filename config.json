@@ -1,0 +1,6 @@
+{
+    "startingCurrency": 1000,
+    "maxBetPercentFromRemainingCurrency": 0.2,
+    "difficulty": 0,
+    "translations": ["EN-us", "FI-fi"]
+}
