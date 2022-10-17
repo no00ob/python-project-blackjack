@@ -234,7 +234,6 @@ def SetBet():
     aiMinBet = playerData.bet * 0.85
     aiMinBet = round(aiMinBet)
     aiData.bet = randint(aiMinBet, aiMaxBet)
-    print(aiMinBet,aiMaxBet)
     # In-case the bet is more than available currency, clamp it back to the max amount of currency available
     if (aiData.bet > aiData.currency):
         aiData.bet = aiData.currency
